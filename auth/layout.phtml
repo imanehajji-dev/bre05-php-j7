@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini-Projet : Authentification </title>
+</head>
+<body>
+
+<?php
+
+if ($route === NULL) {
+
+    require 'home.phtml';
+
+} elseif ($route === 'home') {
+
+    require 'home.phtml';
+
+} elseif ($route === 'inscription') {
+
+    require 'register.phtml';
+
+} elseif ($route === 'connexion') {
+
+    require 'login.phtml';
+
+}
+
+?>
+
+</body>
+</html>
